@@ -1,3 +1,5 @@
+/// Model for each item
+
 class Item {
   final int id;
   final String name;

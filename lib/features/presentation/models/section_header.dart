@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+/// Model for the header of each section
+
 class SectionHeader extends StatefulWidget {
   final String sectionName;
 

@@ -1,6 +1,8 @@
 import 'dart:convert';
 import 'package:flutter/services.dart' show rootBundle;
 
+/// Reads the json file to extract data
+
 Future<Map<String, dynamic>> parseItemsFromFile() async {
   try {
     final String jsonString = await rootBundle.loadString('assets/dummy_data.json');

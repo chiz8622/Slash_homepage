@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+/// Model fo reach announcement / piece of news 
 
 class PieceOfNews extends StatefulWidget {
   const PieceOfNews({super.key});

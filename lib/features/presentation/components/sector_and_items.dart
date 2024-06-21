@@ -4,18 +4,19 @@ import 'package:slash_homepage/features/domain/usecases/getItemsList.dart';
 import 'package:slash_homepage/features/presentation/models/item.dart';
 import 'package:slash_homepage/features/presentation/models/section_header.dart';
 
-class CategoryAndItems extends StatefulWidget {
+/// Display the sector name and the items belonging to each 
+class SectorAndItems extends StatefulWidget {
   final String sectionName;
-  const CategoryAndItems({
+  const SectorAndItems({
     super.key,
     required this.sectionName,
   });
 
   @override
-  State<CategoryAndItems> createState() => _CategoryAndItemsState();
+  State<SectorAndItems> createState() => _SectorAndItemsState();
 }
 
-class _CategoryAndItemsState extends State<CategoryAndItems> {
+class _SectorAndItemsState extends State<SectorAndItems> {
 
   @override
   Widget build(BuildContext context) {

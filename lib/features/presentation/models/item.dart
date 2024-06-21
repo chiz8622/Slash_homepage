@@ -4,6 +4,8 @@ import 'package:flutter/rendering.dart';
 import 'package:flutter/widgets.dart';
 import '../../domain/models/item.dart';
 
+/// Model for items 
+
 class ItemUI extends StatefulWidget {
   final Item data;
 

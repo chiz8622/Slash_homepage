@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+/// Model for the category icons
+
 class CategoryIcon extends StatefulWidget {
   final IconData icon;
   final String name;

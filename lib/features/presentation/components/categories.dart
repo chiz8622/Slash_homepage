@@ -3,6 +3,8 @@ import 'package:slash_homepage/features/data/categories_def.dart';
 import 'package:slash_homepage/features/presentation/models/category_icon.dart';
 import 'package:slash_homepage/features/presentation/models/section_header.dart';
 
+/// display the categories section
+
 class Categories extends StatefulWidget {
   const Categories({super.key});
 

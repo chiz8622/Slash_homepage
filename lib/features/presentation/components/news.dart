@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:slash_homepage/features/presentation/models/piece_of_news.dart';
 
+/// Displays the announcements or the news at the top of the page
+
 class News extends StatefulWidget {
   const News({super.key});
 

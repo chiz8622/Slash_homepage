@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:slash_homepage/features/presentation/components/categories.dart';
-import 'package:slash_homepage/features/presentation/components/category_and_items.dart';
+import 'package:slash_homepage/features/presentation/components/sector_and_items.dart';
 import 'package:slash_homepage/features/presentation/components/footer.dart';
 import 'package:slash_homepage/features/presentation/components/header.dart';
 import 'package:slash_homepage/features/presentation/components/news.dart';
@@ -30,9 +30,9 @@ class _HomePageState extends State<HomePage> {
                   CustomSearchBar(),
                   News(),
                   Categories(),
-                  CategoryAndItems(sectionName: "Best Selling"),
-                  CategoryAndItems(sectionName: "New Arrival"),
-                  CategoryAndItems(sectionName: "Recommended for you"),
+                  SectorAndItems(sectionName: "Best Selling"),
+                  SectorAndItems(sectionName: "New Arrival"),
+                  SectorAndItems(sectionName: "Recommended for you"),
                 ],
               ),
             ),

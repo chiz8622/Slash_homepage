@@ -1,5 +1,7 @@
 import 'package:slash_homepage/features/data/data_source.dart';
 
+/// Function to extract the list of each sector
+
 String toCamelCase (String sectionName) {
   String camelCaseSectionName ;
   List<String> words = sectionName.split(' ');

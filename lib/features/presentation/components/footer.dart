@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:slash_homepage/features/data/footer_def.dart';
 import 'package:slash_homepage/features/presentation/models/footer_icon.dart';
 
+/// Displays the footer
+
 class Footer extends StatefulWidget {
   const Footer({super.key});
 

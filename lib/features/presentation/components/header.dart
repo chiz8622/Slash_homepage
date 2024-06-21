@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+/// Displays the header
+
 // ignore: must_be_immutable
 class Header extends StatefulWidget implements PreferredSizeWidget {
   String area;

@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart' show kIsWeb;
 
+/// Displays the search bar
+
 class CustomSearchBar extends StatefulWidget {
   const CustomSearchBar({super.key});
 

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+/// Model for footer icons
+
 class FooterIcon extends StatefulWidget {
   final IconData icon;
   final String name;
