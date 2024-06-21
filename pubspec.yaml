@@ -1,0 +1,55 @@
+name: slash_homepage
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  equatable: ^2.0.5
+  dio: ^4.0.6
+  uuid: ^3.0.6
+  dartz: ^0.10.1  
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^3.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+   - assets/images/news_img.jpg
+   - assets/images/stitch.jpg
+   - assets/images/slider_icon.jpg
+   - assets/images/config_icon.jpg
+   - assets/dummy_data.json
+   - assets/images/best_seller_1.jpg
+   - assets/images/best_seller_2.jpg
+   - assets/images/best_seller_3.jpg
+   - assets/images/best_seller_4.jpg
+   - assets/images/best_seller_5.jpg
+   - assets/images/new_arrival_1.jpg
+   - assets/images/new_arrival_2.jpg
+   - assets/images/new_arrival_3.jpg
+   - assets/images/new_arrival_4.jpg
+   - assets/images/new_arrival_5.jpg
+   - assets/images/recommended_1.jpg
+   - assets/images/recommended_2.jpg
+   - assets/images/recommended_3.jpg
+   - assets/images/recommended_4.jpg
+   - assets/images/recommended_5.jpg
+
+  
